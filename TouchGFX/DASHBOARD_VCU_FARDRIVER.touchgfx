@@ -1,0 +1,391 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "SplashMenu",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 190,
+            "Y": 114,
+            "Width": 100,
+            "Height": 92,
+            "Filename": "pens.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionDelay",
+              "Duration": 3000
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "Interaction1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainMenu"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "MainMenu",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 320,
+            "RelativeFilename": "bg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "error_off",
+            "X": 16,
+            "Y": 12,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "error_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "error",
+            "X": 16,
+            "Y": 12,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "error.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "r_off",
+            "X": 68,
+            "Y": 12,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "r_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "r",
+            "X": 68,
+            "Y": 12,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "r.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "seinl_off",
+            "X": 130,
+            "Y": 6,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "seinl_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "seinl",
+            "X": 130,
+            "Y": 6,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "seinl.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "seinr_off",
+            "X": 297,
+            "Y": 6,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "seinr_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "hazard_0ff",
+            "X": 364,
+            "Y": 6,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "hazard_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "seinr",
+            "X": 297,
+            "Y": 6,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "seinr.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "hazard",
+            "X": 364,
+            "Y": 6,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "hazard.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "beam_off",
+            "X": 419,
+            "Y": 8,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "beam_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "beam",
+            "X": 419,
+            "Y": 8,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "beam.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "batt",
+            "X": 22,
+            "Y": 2661,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "batt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "batt_off",
+            "X": 22,
+            "Y": 261,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "batt_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "charge",
+            "X": 310,
+            "Y": 261,
+            "Width": 40,
+            "Height": 40,
+            "Visible": false,
+            "RelativeFilename": "charge.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "charge_off",
+            "X": 310,
+            "Y": 261,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "charge_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "txtSpeed",
+            "X": 22,
+            "Y": 92,
+            "Width": 162,
+            "Height": 121,
+            "TextId": "__SingleUse_MMGB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_UT30",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 202,
+            "Y": 190,
+            "Width": 53,
+            "Height": 23,
+            "TextId": "__SingleUse_U69J",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "mode1",
+            "X": 317,
+            "Y": 197,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "mode1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mode1_off",
+            "X": 317,
+            "Y": 197,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "mode1_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mode2",
+            "X": 364,
+            "Y": 197,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "mode2.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mode2_off",
+            "X": 364,
+            "Y": 197,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "mode2_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mode3",
+            "X": 415,
+            "Y": 197,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "mode3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mode3_off",
+            "X": 415,
+            "Y": 197,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "mode3_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "txtSoc",
+            "X": 334,
+            "Y": 92,
+            "Width": 33,
+            "Height": 36,
+            "TextId": "__SingleUse_LTWW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_BGHH",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 371,
+            "Y": 97,
+            "Width": 13,
+            "Height": 23,
+            "TextId": "__SingleUse_4XZV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "SplashMenu",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F407/417",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../DASHBOARD_VCU_FARDRIVER.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.25.0"
+}

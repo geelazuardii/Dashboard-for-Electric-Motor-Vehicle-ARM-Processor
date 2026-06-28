@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_4XZV" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">%</Translation>
+      </Text>
+      <Text Id="__SingleUse_BGHH" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">70&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_LTWW" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">&lt;soc&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_U69J" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">km/h</Translation>
+      </Text>
+      <Text Id="__SingleUse_UT30" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_MMGB" Alignment="Right" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="digital-7.ttf" Size="23" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="digital-7.ttf" Size="120" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WildcardCharacterRanges="0-9" />
+    <Typography Id="Typography_01" Font="digital-7.ttf" Size="32" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="%" WildcardCharacters="012345789%" />
+  </Typographies>
+</TextDatabase>
