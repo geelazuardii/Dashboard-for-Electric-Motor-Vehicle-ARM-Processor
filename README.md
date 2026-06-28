@@ -82,7 +82,6 @@ The dashboard receives vehicle information from several independent subsystems. 
 |----------|----------------|
 | MCU | STM32F407VG Discovery |
 | Display | 3.5" TFT ILI9488 SPI |
-| Touch Controller | XPT2046 |
 | Motor Controller | Fardriver ND Series |
 | Battery Management | JK BMS |
 | GPS Module | ATGM336H |
