@@ -1,7 +1,7 @@
-# Dashboard-for-Electric-Motor-Vehicle-using-ARM-Processor
+# Centralized-Dashboard-for-Electric-Motor-Vehicle-using-ARM-Processor
 Centralized Dashboard System for Electric Motor Vehicle using STM32F407VG Discovery, TouchGFX, GPS, JK BMS, and Fardriver Controller.
 
-# Dashboard for Electric Motor Vehicle using ARM Cortex-M4
+# Centralized Dashboard for Electric Motor Vehicle using ARM Cortex-M4
 
 <p align="center">
 <img src="docs/images/dashboard_cover.png" width="900">
