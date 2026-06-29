@@ -254,7 +254,7 @@ The following tests were conducted during system validation.
 
 Muhammad Galan Lazuardi Saka
 
-Department of Electrical Engineering
+Department of Informatics and Commputer Engineering
 
 Politeknik Elektronika Negeri Surabaya (PENS)
 
