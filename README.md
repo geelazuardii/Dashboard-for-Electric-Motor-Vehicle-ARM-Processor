@@ -12,7 +12,7 @@ Centralized Dashboard System for Electric Motor Vehicle using STM32F407VG Discov
 ![STM32](https://img.shields.io/badge/MCU-STM32F407VG-green)
 ![TouchGFX](https://img.shields.io/badge/UI-TouchGFX-blue)
 ![ILI9488](https://img.shields.io/badge/Display-ILI9488-orange)
-![GPS](https://img.shields.io/badge/GPS-ATGM336H-yellow)
+![GPS](https://img.shields.io/badge/GPS-NEOm6n-yellow)
 ![JKBMS](https://img.shields.io/badge/BMS-JK_BMS-red)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
