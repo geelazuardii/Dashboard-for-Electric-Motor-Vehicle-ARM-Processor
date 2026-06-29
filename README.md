@@ -84,7 +84,7 @@ The dashboard receives vehicle information from several independent subsystems. 
 | Display | 3.5" TFT ILI9488 SPI |
 | Motor Controller | Fardriver ND Series |
 | Battery Management | JK BMS |
-| GPS Module | ATGM336H |
+| GPS Module | NEO M6N |
 | Storage | Micro SD Card |
 | Development IDE | STM32CubeIDE |
 | GUI Framework | TouchGFX |
